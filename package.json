@@ -2,11 +2,14 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://AndreFNM.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -26,6 +29,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
