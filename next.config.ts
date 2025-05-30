@@ -1,15 +1,14 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: 'export',
   distDir: 'out',
   reactStrictMode: true,
 
   basePath: '/portfolio',
+  assetPrefix: '/portfolio',
 
   images: {
     unoptimized: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

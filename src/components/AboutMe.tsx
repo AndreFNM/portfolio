@@ -15,7 +15,7 @@ export default function AboutMe() {
         <Slide direction="left" triggerOnce> 
           <div className="w-48 h-48 relative shadow-lg">
             <Image
-              src="/ImagemAndre.jpg"
+              src="/portfolio/ImagemAndre.jpg"
               alt="Profile photo"
               fill
               className="rounded-md object-cover"
