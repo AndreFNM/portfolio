@@ -10,7 +10,7 @@ export default function Hero() {
           <Fade delay={300} triggerOnce> 
               <div className="w-32 h-32 relative mb-6">
                 <Image
-                  src="/portfolio/ImagemAndre.jpg"
+                  src="/ImagemAndre.jpg"
                   alt="Profile"
                   fill
                   className="rounded-full object-cover border-4 border-blue-600"
