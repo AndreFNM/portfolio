@@ -25,7 +25,7 @@ export default function Hero() {
           </Slide>
 
           <Fade delay={800} triggerOnce> 
-              <p className="mt-2 text-gray-400">I do web development.</p> 
+              <p className="mt-2 text-gray-400">Junior Software Engineer</p> 
           </Fade>
 
           <div className="mt-10 animate-bounce text-3xl text-blue-500">↓</div>

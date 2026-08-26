@@ -21,11 +21,12 @@ export default function Navbar() {
         </button>
 
         <ul className="hidden md:flex gap-6 text-sm">
-          <li><a href="#portfolio">portfolio</a></li>
-          <li><a href="#skills">skills</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#education">education</a></li>
-          <li><a href="#contact">contact</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
             <motion.a
               href="/CV___Andre_Magalhaes.pdf"
@@ -43,6 +44,7 @@ export default function Navbar() {
 
       {isOpen && (
         <ul className="flex flex-col gap-4 mt-4 text-sm md:hidden">
+          <li><a href="#experience" onClick={toggleMenu}>experience</a></li>
           <li><a href="#portfolio" onClick={toggleMenu}>portfolio</a></li>
           <li><a href="#skills" onClick={toggleMenu}>skills</a></li>
           <li><a href="#about" onClick={toggleMenu}>about</a></li>

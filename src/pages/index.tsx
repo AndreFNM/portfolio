@@ -5,6 +5,7 @@ import Education from '@/components/Education';
 import Footer from '../components/Footer';
 import Skills from '@/components/Skills';
 import Hero from '@/components/Hero';
+import Experience from '@/components/Experience';
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
   <div className="max-w-screen-xl mx-auto">
     <Navbar />
     <Hero />
+    <Experience />
     <Projects />
     <Skills />
     <AboutMe />

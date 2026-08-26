@@ -26,7 +26,15 @@ export default function AboutMe() {
         <Slide direction="right" triggerOnce delay={200}> 
           <div className="max-w-xl">
             <p className="mb-6 text-gray-300 leading-relaxed">
-                            As a Web Developer with a Bachelors degree in Computer Science, I am passionate about creating intuitive and engaging web experiences. I have made practical projects in React, TypeScript, and UI development. My work includes building full-stack applications like CookSpace, where I focused on responsive design with Tailwind CSS and integrated robust features such as user authentication and email-based account recovery. I am eager to apply my skills in challenging environments and contribute to impactful projects.
+                I'm a Computer Science graduate and Software Developer with professional
+                experience working on enterprise software solutions. At NTT DATA, I worked
+                as a Junior Software Consultant, developing application features and
+                backend business logic using JavaScript and C#, while investigating
+                application incidents and analyzing technical requirements.
+                <br /><br />
+                I also have experience building full-stack web applications using React,
+                Next.js, TypeScript, and modern web technologies. I'm passionate about
+                learning, solving technical problems, and building reliable software.
             </p>
 
             <div className="grid grid-cols-2 gap-y-2 text-sm text-gray-200">
@@ -34,7 +42,7 @@ export default function AboutMe() {
               <p><span className="font-semibold">Nationality:</span> Portugal</p>
               <p><span className="font-semibold">Location:</span> Porto, Portugal</p>
               <p><span className="font-semibold">Education:</span> Lusófona university</p>
-              <p><span className="font-semibold">Age:</span> 22</p>
+              <p><span className="font-semibold">Age:</span> 23</p>
               <p><span className="font-semibold">Degree:</span> Computer science</p>
             </div>
           </div>
