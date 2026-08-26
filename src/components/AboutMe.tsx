@@ -26,14 +26,14 @@ export default function AboutMe() {
         <Slide direction="right" triggerOnce delay={200}> 
           <div className="max-w-xl">
             <p className="mb-6 text-gray-300 leading-relaxed">
-                I'm a Computer Science graduate and Software Developer with professional
+                I&apos;m a Computer Science graduate and Software Developer with professional
                 experience working on enterprise software solutions. At NTT DATA, I worked
                 as a Junior Software Consultant, developing application features and
                 backend business logic using JavaScript and C#, while investigating
                 application incidents and analyzing technical requirements.
                 <br /><br />
                 I also have experience building full-stack web applications using React,
-                Next.js, TypeScript, and modern web technologies. I'm passionate about
+                Next.js, TypeScript, and modern web technologies. I&apos;m passionate about
                 learning, solving technical problems, and building reliable software.
             </p>
 
